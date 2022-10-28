@@ -25,3 +25,4 @@ MongoClient.connect(Connection, async (err, dataBase) => {
     const DeleteY = await DbConnection.deleteMany({ lastCompany: "Y" });
     console.log(DeleteY);
 })
+
